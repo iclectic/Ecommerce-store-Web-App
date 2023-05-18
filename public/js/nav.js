@@ -20,7 +20,7 @@ const createNavbar = () => {
     </a>
    </li>
     <li class="link-item"><a href='http://localhost:3000/index.html' class="link">home</a></li>
-        <li class="link-item"><a href='http://localhost:3000/SEARCH/BEAUTY' class="link">product</a></li>
+        <li class="link-item"><a href='http://localhost:3000/SEARCH/ALLPRODUCTS' class="link">product</a></li>
         
 
 </ul>
