@@ -1,8 +1,9 @@
-body:not(.exclood-body){
-  background: #efeff3;
+.exclood-body{
+  background: #FFF;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
    color:#212121;
+   margin-top: 150px;
  }
  .wrapper-about{
    position: relative;
@@ -10,11 +11,12 @@ body:not(.exclood-body){
    margin: 0 auto 75px auto;
    width: 100%;
    overflow: hidden;
+   
  }
  .top-about{
-   background: #FF4444;
+   background: #D5BE8B;
    height: 180px;
-   border-top: 20px solid #CC0000;
+   border-top: 20px solid #D5BE8B;
  }
  
  .top-about .title-about {
@@ -26,6 +28,9 @@ body:not(.exclood-body){
    font-size:24px;
    color:#FFF;
    font-weight:500;
+   display: flex;
+   justify-content: center;
+   align-items: center;
  }
  
  .content{
@@ -43,7 +48,14 @@ body:not(.exclood-body){
    width: 600px;
    margin: 20px auto 0 auto;
    box-shadow: 0 2px 4px rgba(100,100,100,.1);
+   transition: transform 0.3s ease;
+   
  }
+
+ .card:hover {
+  transform: translateY(-5px);
+  /* Additional styling for the raised effect */
+}
  
  .card h2 {
    font-size:21px;
@@ -51,7 +63,7 @@ body:not(.exclood-body){
  }
  
  .card h2 a {
-   color:#CC0000;
+   color: #D5BE8B;
    text-decoration:none;
  }
  
@@ -67,3 +79,9 @@ body:not(.exclood-body){
    font-size:15px;
    line-height:22px;
  }
+
+
+
+
+
+

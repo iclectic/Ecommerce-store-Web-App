@@ -14,6 +14,11 @@ const createNavbar = () => {
     let navbar = document.querySelector('.navbar');
     navbar.innerHTML += `
     <ul class="links-container">
+    <li class="logo-item">
+    <a href="http://localhost:3000/index.html">
+      <img src="../img/bakana_electronics_logo.jpg" alt="Logo">
+    </a>
+   </li>
     <li class="link-item"><a href='http://localhost:3000/index.html' class="link">home</a></li>
         <li class="link-item"><a href='http://localhost:3000/SEARCH/BEAUTY' class="link">product</a></li>
         

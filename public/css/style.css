@@ -4,9 +4,25 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     font-family: 'cinzel', serif;
 }
+
+/* LOGO */
+.logo-item {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+  }
+  
+  .logo-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+
 
 .navbar{
     width: 100%;
@@ -167,26 +183,61 @@ body{
 
 
 
-.header-section{
+/* .header-section{
     width: 100%;
     height: 100vh;
-    background: url(../img/header.png);
+    background: url(../img/sony.mp4);
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    background-color: none;
+} */
 
+
+
+
+  
+
+
+
+.header-section {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
 
 
 .header-heading{
     font-size: 100px;
     text-transform: capitalize;
-    color: #fff;
+    font-weight: bold;
+    color:  #ff9900;
 }
 
+  
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
 .header-heading span{
-    color: #d5be8b;
+    color:  #ff9900;
 }
 
 /* best selling products */

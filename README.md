@@ -34,6 +34,10 @@
 	```
 	npm i firebase express.js bcrypt nodemon
 	```
+
+	```
+	npm i stripe
+        ```
 	```
 	npm start
 	```
