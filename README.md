@@ -37,10 +37,10 @@
 
 	```
 	npm i stripe
-        ```
+	```
 	
 	```
-	npm start
+	npm i start
 	```
 - Once the server has been launched your default web browser should host the website `locally on http://localhost:3000`
 - The website can be accessed if it is not launched automatically on your default browser by visiting this address on your preferred browser `http://localhost:3000/index.html` 
