@@ -38,6 +38,7 @@
 	```
 	npm i stripe
         ```
+	
 	```
 	npm start
 	```
