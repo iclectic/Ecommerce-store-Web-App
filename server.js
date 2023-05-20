@@ -355,7 +355,7 @@ let DOMAIN = process.env.DOMAIN;
 
 app.post('/stripe-checkout', async (req, res) => {
     const session = await stripeGateway.checkout.sessions.create({
-        payment_method_types: ['card'],
+        payment_method_types: ["card"],
         mode: "payment",
         success_url: `${DOMAIN}/success?session_id={CHECKOUT_SESSION_ID}&order=${JSON.stringify(req.body)}`,
         cancel_url: `${DOMAIN}/checkout?payment_fail=true`,
@@ -395,7 +395,7 @@ app.get('/success', async (req, res) => {
         res.redirect('/checkout?payment=done')
        })
     } catch{
-        res.redirect('/paymentsuccess.html')
+        res.redirect("success.html")
     }
 })
 

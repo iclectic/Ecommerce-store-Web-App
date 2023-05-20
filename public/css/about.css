@@ -13,6 +13,8 @@
    overflow: hidden;
    
  }
+
+
  .top-about{
    background: #D5BE8B;
    height: 180px;
@@ -80,8 +82,45 @@
    line-height:22px;
  }
 
+/* Media Queries */
 
+ /* CSS for mobile devices */
+ @media only screen and (max-width: 600px) {
+  .wrapper-about {
+    padding: 10px;
+  }
 
+  .card {
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    max-width: 90%; /* Adjust the value as needed */
+  }
+
+  /* Adjust font sizes, margins, or any other styles as needed */
+}
+
+.card .text {
+  max-width: 300px; /* Adjust the value as needed */
+  word-wrap: break-word;
+}
+
+.title-about h1 {
+  font-size: 24px; /* Adjust the font size as needed */
+  align-items: center;
+}
+
+.top-about {
+  padding-right: 150px;
+  
+}
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the content */
+  }
+
+  
 
 
 

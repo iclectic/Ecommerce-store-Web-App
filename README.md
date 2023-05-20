@@ -1,9 +1,9 @@
-# Ecommerce Store Website for Electronic Television's
+# Ecommerce Store Website for Electronic Television Online Store
 
 ## Student Name: Ibim Mercy Miller Braide
 ## Student ID: 22166610
 ## Course: CMP7246 Web Application Development
-## Assessment: D1
+## Assessment: D2
 
 ## Designed with the following:
 - Hypertext Markup Language 
@@ -14,9 +14,10 @@
 - Express.js
 
 ## Nota Bene:
-- All pages for the Ecommerce Website have not been completed.
-- More pages will be added subsequently.
-- An aspect of the backend is functioning as one can sign in via the signup.html page considering that Firebase is used as a database.
+- In a scenario where the web application crashes for any reason, especially if the `place order` button is clicked in the `checkout.html` page, kindly kill the terminal in the editor and run `npm start` in your terminal again.
+- Code for an integrated Stripe payment platform can be found in the `server.js` and `checkout.js` files. The stripe files are not fully efficient and have been left that way, considering that a payment medium is not a requirement for this asssessment, to the best of my knowledge.
+- To be on the safe site, it would still be best to install stripe as the checkout.js file, which also includes code for form validation is also affiliated to the `place order` button which is supposed to direct a user to a test stripe payment form.
+
 
 ## Aim of Project
 

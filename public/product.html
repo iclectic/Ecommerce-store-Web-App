@@ -10,9 +10,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/form.css">
     <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="../css/footer.css">
 
 </head>
 <body>
@@ -50,17 +52,12 @@
 
     </section>
 
-    <!-- review section -->
-    <section class="review-section">
-        <h1 class="section-title">Reviews</h1>
-        <div class="review-container">
-            <div class="review-card">
-                <div class="user-dp" data-rating="4.9"><img src="" alt=""></div>
-                <h2 class="review-title">best quality more than my expectation</h2>
-                <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsum quasi vitae, maxime ipsam.</p>
-            </div>
-        </div>
+     <!-- review section -->
+     <section class="review-section">
+      
     </section>
+
+    
 
     <!-- add review form -->
     <section class="add-review-section">
@@ -77,30 +74,87 @@
         </div>
         <span class="error">**this is an error</span>
         <button class="add-review-btn">add review</button>
+      
     </section>
 
-    similar products
+    <!-- similar products -->
     <section class="best-selling-product-section">
-        <h1 class="section-title">similar products</h1>
+        <h1 class="section-title"></h1>
         <div class="product-container">
-            <div class="product-card">
-                <img src="img/product-1.png" class="product-img" alt="">
-                <p class="product-name">lights →</p>
-            </div>
         </div>
     </section>
 
-    <footer>made by Ibim Braide</footer>
+     <!-- Footer -->
+     <body class="exclude-body">
+        <footer class="footer-dr">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="footer-col">
+                <h4>COMPANY</h4>
+                <ul>
+                  <li><a href="about.html">about us</a></li>
+                  <li><a href="ourservices.html">our services</a></li>
+                  <li><a href="privacypolicy.html">privacy policy</a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>CUSTOMER</h4>
+                <ul>
+                  <li><a href="faq.html">FAQ</a></li>
+                  <li><a href="contact.html">contact us</a></li>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>CUSTOMER</h4>
+                <ul>
+                  <li><a href="seller.html">seller</a></li>
+                  <li><a href="dashboard.html">dashboard</a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                </ul>
+              </div>
+              <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+       </footer>   
+      </body>
 
     
+    <script src="../js/review.js"></script>
     <script src="../js/form.js"></script>
     <script src="../js/cart.js"></script>
     <script src="../js/home.js"></script>
     <script src="../js/nav.js"></script>
     <script src="../js/common.js"></script>
     <script src="../js/product.js"></script>
-    <script src="../js/review.js"></script>
-    <script src="../js/add-prodcuct.js"></script>
+    <script src="../js/add-product.js"></script>
+<script>
+        // Find the "buy now" button
+        const buyButton = document.querySelector('.buy-btn');
+  
+        // Add event listener to the button
+        buyButton.addEventListener('click', function() {
+        // Redirect the user to the specified URL
+        window.location.href = 'http://localhost:3000/cart.html';
+        });
+  </script> 
+
+  
+  
 
     
 </body>

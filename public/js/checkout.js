@@ -39,6 +39,9 @@ placeOrderBtn.addEventListener('click', () => {
     }
 })
 
+
+
+
 const getAddress = () => {
     // form validation
     let address = document.querySelector('#address').value;
@@ -54,3 +57,9 @@ const getAddress = () => {
         return { address, street, city, state, pincode, landmark }
     }
 }
+
+
+
+
+
+

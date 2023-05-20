@@ -102,3 +102,4 @@ const updateNavCartCounter = () => {
 }
 
 updateNavCartCounter();
+

@@ -49,3 +49,15 @@ if(location.pathname != '/add-product'){
     productId = decodeURI(location.pathname.split('/').pop());
     fetchProductData();
 }
+
+// // buy now button
+
+// // Find the "buy now" button
+// const buyButton = document.querySelector('.buy-btn');
+
+// // Add event listener to the button
+// buyButton.addEventListener('click', function() {
+//   // Redirect the user to the specified URL
+//   window.location.href = 'http://localhost:3000/cart.html';});
+
+

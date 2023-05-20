@@ -365,3 +365,12 @@
     padding-bottom: 100px; /* Adjust as needed to create space for the form */
   }
   
+  @media (max-width: 768px) {
+    .exclood-body,
+    .wrapper-about,
+    .content,
+    .card,
+    .text {
+        width: 100%;
+    }
+  }
